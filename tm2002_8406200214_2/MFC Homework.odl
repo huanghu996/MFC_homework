@@ -1,0 +1,42 @@
+// MFC Homework.odl : type library source for MFC Homework.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (MFC Homework.tlb).
+
+[ uuid(91BB4513-BEC8-468A-B92D-0DBC02BDD360), version(1.0) ]
+library MFCHomework
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CMFCHomeworkDoc
+	
+	[ uuid(6670114C-86C2-44D3-A956-85861C4E53E7) ]
+	dispinterface IMFCHomework
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CMFCHomeworkDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CMFCHomeworkDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CMFCHomeworkDoc
+	
+	[ uuid(A928A279-9DCB-4EB6-B936-0B96A18B26E4) ]
+	coclass MFCHomework
+	{
+		[default] dispinterface IMFCHomework;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};
